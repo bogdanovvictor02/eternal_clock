@@ -1,0 +1,415 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "7-seg_display"
+Date "2021-07-05"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 "Victor"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 8900 2700 2    50   ~ 0
+CC1
+Text Label 8900 2800 2    50   ~ 0
+CC2
+$Comp
+L Device:R_Small R8
+U 1 1 60EE61F4
+P 2150 1650
+F 0 "R8" V 1954 1650 50  0000 C CNN
+F 1 "330" V 2045 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2150 1650 50  0001 C CNN
+F 3 "~" H 2150 1650 50  0001 C CNN
+	1    2150 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 1650 2500 1650
+Text Label 2500 1650 2    50   ~ 0
+A
+Wire Wire Line
+	2250 1950 2500 1950
+Text Label 2500 1950 2    50   ~ 0
+B
+Wire Wire Line
+	2250 2250 2500 2250
+Text Label 2500 2250 2    50   ~ 0
+C
+Wire Wire Line
+	2250 2550 2500 2550
+Text Label 2500 2550 2    50   ~ 0
+D
+Wire Wire Line
+	2250 2850 2500 2850
+Text Label 2500 2850 2    50   ~ 0
+E
+Wire Wire Line
+	2250 3150 2500 3150
+Text Label 2500 3150 2    50   ~ 0
+F
+Wire Wire Line
+	2250 3450 2500 3450
+Text Label 2500 3450 2    50   ~ 0
+G
+Wire Wire Line
+	2250 3750 2500 3750
+Text Label 2500 3750 2    50   ~ 0
+DP
+$Comp
+L Device:R_Small R9
+U 1 1 60F002C5
+P 2150 1950
+F 0 "R9" V 1954 1950 50  0000 C CNN
+F 1 "330" V 2045 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2150 1950 50  0001 C CNN
+F 3 "~" H 2150 1950 50  0001 C CNN
+	1    2150 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 60F02A97
+P 2150 2250
+F 0 "R10" V 1954 2250 50  0000 C CNN
+F 1 "330" V 2045 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2150 2250 50  0001 C CNN
+F 3 "~" H 2150 2250 50  0001 C CNN
+	1    2150 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 60F03FF7
+P 2150 2550
+F 0 "R11" V 1954 2550 50  0000 C CNN
+F 1 "330" V 2045 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2150 2550 50  0001 C CNN
+F 3 "~" H 2150 2550 50  0001 C CNN
+	1    2150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 60F05522
+P 2150 2850
+F 0 "R12" V 1954 2850 50  0000 C CNN
+F 1 "330" V 2045 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2150 2850 50  0001 C CNN
+F 3 "~" H 2150 2850 50  0001 C CNN
+	1    2150 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 60F06957
+P 2150 3150
+F 0 "R13" V 1954 3150 50  0000 C CNN
+F 1 "330" V 2045 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2150 3150 50  0001 C CNN
+F 3 "~" H 2150 3150 50  0001 C CNN
+	1    2150 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 60F07D6A
+P 2150 3450
+F 0 "R14" V 1954 3450 50  0000 C CNN
+F 1 "330" V 2045 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2150 3450 50  0001 C CNN
+F 3 "~" H 2150 3450 50  0001 C CNN
+	1    2150 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R15
+U 1 1 60F09243
+P 2150 3750
+F 0 "R15" V 1954 3750 50  0000 C CNN
+F 1 "330" V 2045 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2150 3750 50  0001 C CNN
+F 3 "~" H 2150 3750 50  0001 C CNN
+	1    2150 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 1650 1800 1650
+Wire Wire Line
+	2050 1950 1800 1950
+Wire Wire Line
+	2050 2250 1800 2250
+Wire Wire Line
+	2050 2550 1800 2550
+Wire Wire Line
+	2050 2850 1800 2850
+Wire Wire Line
+	2050 3150 1800 3150
+Wire Wire Line
+	2050 3450 1800 3450
+Wire Wire Line
+	2050 3750 1800 3750
+Text Label 5500 5400 2    50   ~ 0
+CC1
+Text Label 5500 5850 2    50   ~ 0
+CC2
+Text Label 5500 6300 2    50   ~ 0
+CC3
+Text Label 5500 6750 2    50   ~ 0
+CC4
+Text HLabel 1800 3750 0    50   Input ~ 0
+DISP_SEG_DP
+Text HLabel 1800 3450 0    50   Input ~ 0
+DISP_SEG_G
+Text HLabel 1800 3150 0    50   Input ~ 0
+DISP_SEG_F
+Text HLabel 1800 2850 0    50   Input ~ 0
+DISP_SEG_E
+Text HLabel 1800 2550 0    50   Input ~ 0
+DISP_SEG_D
+Text HLabel 1800 2250 0    50   Input ~ 0
+DISP_SEG_C
+Text HLabel 1800 1950 0    50   Input ~ 0
+DISP_SEG_B
+Text HLabel 1800 1650 0    50   Input ~ 0
+DISP_SEG_A
+Text HLabel 2100 5600 0    50   Input ~ 0
+DISP_DIG_1
+Text HLabel 2100 6050 0    50   Input ~ 0
+DISP_DIG_2
+Text HLabel 2100 6500 0    50   Input ~ 0
+DISP_DIG_3
+Text HLabel 2100 6950 0    50   Input ~ 0
+DISP_DIG_4
+$Comp
+L Device:R_Small R16
+U 1 1 60FB14CD
+P 2350 5600
+F 0 "R16" V 2154 5600 50  0000 C CNN
+F 1 "10k" V 2245 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2350 5600 50  0001 C CNN
+F 3 "~" H 2350 5600 50  0001 C CNN
+	1    2350 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R17
+U 1 1 60FB3B1F
+P 2350 6050
+F 0 "R17" V 2154 6050 50  0000 C CNN
+F 1 "10k" V 2245 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2350 6050 50  0001 C CNN
+F 3 "~" H 2350 6050 50  0001 C CNN
+	1    2350 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R18
+U 1 1 60FBA664
+P 2350 6500
+F 0 "R18" V 2154 6500 50  0000 C CNN
+F 1 "10k" V 2245 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2350 6500 50  0001 C CNN
+F 3 "~" H 2350 6500 50  0001 C CNN
+	1    2350 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R19
+U 1 1 60FBA66A
+P 2350 6950
+F 0 "R19" V 2154 6950 50  0000 C CNN
+F 1 "10k" V 2245 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2350 6950 50  0001 C CNN
+F 3 "~" H 2350 6950 50  0001 C CNN
+	1    2350 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 5600 2100 5600
+Wire Wire Line
+	2250 6050 2100 6050
+Wire Wire Line
+	2250 6500 2100 6500
+Wire Wire Line
+	2250 6950 2100 6950
+Wire Notes Line
+	550  550  3500 550 
+Wire Notes Line
+	3500 550  3500 4750
+Wire Notes Line
+	3500 4750 550  4750
+Wire Notes Line
+	550  4750 550  550 
+Wire Notes Line
+	3550 550  11150 550 
+Wire Notes Line
+	11150 550  11150 4750
+Wire Notes Line
+	11150 4750 3550 4750
+Wire Notes Line
+	3550 4750 3550 550 
+Wire Notes Line
+	550  4800 6900 4800
+Wire Notes Line
+	6900 4800 6900 7750
+Wire Notes Line
+	6900 7750 550  7750
+Wire Notes Line
+	550  7750 550  4800
+Text Label 8900 3000 2    50   ~ 0
+CC4
+Text Notes 600  700  0    50   Italic 10
+INPUT_SEGMENTS
+Text Notes 3600 700  0    50   Italic 10
+7-SEGMENTS_DISPLAY
+Text Notes 600  4950 0    50   Italic 10
+INPUT_DIGITS
+$Comp
+L power:GND #PWR023
+U 1 1 60F7BCAC
+P 3150 7250
+F 0 "#PWR023" H 3150 7000 50  0001 C CNN
+F 1 "GND" H 3155 7077 50  0000 C CNN
+F 2 "" H 3150 7250 50  0001 C CNN
+F 3 "" H 3150 7250 50  0001 C CNN
+	1    3150 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 7200 3550 7200
+Wire Wire Line
+	3550 7200 3550 6700
+Wire Wire Line
+	4400 7200 4400 5800
+Wire Wire Line
+	3150 6750 5550 6750
+Wire Wire Line
+	3550 6300 5550 6300
+Wire Wire Line
+	4000 5850 5550 5850
+Wire Wire Line
+	4400 5400 5550 5400
+Wire Wire Line
+	2450 6950 2850 6950
+Wire Wire Line
+	3250 6500 2450 6500
+Wire Wire Line
+	2450 6050 3700 6050
+Wire Wire Line
+	4100 5600 2450 5600
+$Comp
+L Transistor_BJT:BC817 Q2
+U 1 1 60EFF190
+P 3900 6050
+F 0 "Q2" H 4091 6096 50  0000 L CNN
+F 1 "BC817" H 4091 6005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 5975 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 3900 6050 50  0001 L CNN
+	1    3900 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC817 Q4
+U 1 1 60F00339
+P 3050 6950
+F 0 "Q4" H 3241 6996 50  0000 L CNN
+F 1 "BC817" H 3241 6905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3250 6875 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 3050 6950 50  0001 L CNN
+	1    3050 6950
+	1    0    0    -1  
+$EndComp
+Text Label 8900 2900 2    50   ~ 0
+CC3
+Text Label 5950 2300 0    50   ~ 0
+A
+Text Label 5950 2400 0    50   ~ 0
+B
+Text Label 5950 2500 0    50   ~ 0
+C
+Text Label 5950 2600 0    50   ~ 0
+D
+Text Label 5950 2700 0    50   ~ 0
+E
+Text Label 5950 2800 0    50   ~ 0
+F
+Text Label 5950 2900 0    50   ~ 0
+G
+Text Label 5950 3000 0    50   ~ 0
+DP
+Wire Wire Line
+	6200 2300 5950 2300
+Wire Wire Line
+	6200 2400 5950 2400
+Wire Wire Line
+	5950 2500 6200 2500
+Wire Wire Line
+	6200 2600 5950 2600
+Wire Wire Line
+	5950 2700 6200 2700
+Wire Wire Line
+	6200 2800 5950 2800
+Wire Wire Line
+	5950 2900 6200 2900
+Wire Wire Line
+	6200 3000 5950 3000
+Wire Wire Line
+	8600 2700 8900 2700
+Wire Wire Line
+	8600 2800 8900 2800
+Wire Wire Line
+	8600 2900 8900 2900
+Wire Wire Line
+	8600 3000 8900 3000
+$Comp
+L Transistor_BJT:BC817 Q1
+U 1 1 60EFE172
+P 4300 5600
+F 0 "Q1" H 4491 5646 50  0000 L CNN
+F 1 "BC817" H 4491 5555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 5525 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 4300 5600 50  0001 L CNN
+	1    4300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L _my_clock:CC56-12SRWA D1
+U 1 1 60FAEA7D
+P 7350 2650
+F 0 "D1" H 7400 3225 50  0000 C CNN
+F 1 "CC56-12SRWA" H 7400 3134 50  0000 C CNN
+F 2 "_my_clock:CC56-12SRWA" H 7350 3150 50  0001 C CNN
+F 3 "https://static.chipdip.ru/lib/195/DOC000195114.pdf" H 7350 3150 50  0001 C CNN
+	1    7350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q3
+U 1 1 60F7FF96
+P 3450 6500
+F 0 "Q3" H 3654 6546 50  0000 L CNN
+F 1 "2N7002" H 3654 6455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3650 6425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3450 6500 50  0001 L CNN
+	1    3450 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 7200 4400 7200
+Wire Wire Line
+	3550 7200 4000 7200
+Wire Wire Line
+	4000 7200 4000 6250
+Connection ~ 3550 7200
+Wire Wire Line
+	3150 7150 3150 7200
+Connection ~ 4000 7200
+Connection ~ 3150 7200
+Wire Wire Line
+	3150 7200 3150 7250
+$EndSCHEMATC
